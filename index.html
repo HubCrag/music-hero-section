@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page Chime</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container grid">
+        <div class="w__mobile">
+          <a href="#" class="nav__logo"
+            ><img src="img/Logo.svg" alt="Logo"
+          /></a>
+        </div>
+        <input type="checkbox" id="burger-toggle" />
+        <label for="burger-toggle" class="burger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+        <div class="nav__box">
+            <div class="w__descktop">
+                <a href="#" class="nav__logo"
+                  ><img src="img/Logo.svg" alt="Logo"
+                /></a>
+              </div>
+          <div class="nav__menu" id="nav-menu">
+            <div class="menu__inner">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link"><span>Directions</span></a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link"><span>Teachers</span></a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link"><span>Company</span></a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link"><span>Shop</span></a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link"><span>Contacts</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="tel:+1 414 692-89-00" class="link__tel"
+              >+1 414 692-89-00</a
+            >
+          </div>
+          <div class="sign__box">
+            <a href="#" class="btn_link">Sign in</a>
+            <a href="#" class="btn__btn">Sign up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container grid">
+          <div class="hero__img-left">
+            <img src="img/Illustration-left.svg" alt="Illustration Left" />
+          </div>
+
+          <div class="hero__data">
+            <div class="hero__title">
+              Our team will teach you the art of music and melody.
+            </div>
+            <div class="hero__description">
+              Our experts and teachers will teach you to really feel and love
+              music. Choosethe direction you want to follow.
+            </div>
+            <div class="hero__footer">
+              <div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <div class="custom-select__trigger"><span>Guitar</span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="custom-options">
+                        <span class="custom-option selected" data-value="Guitar">Guitar</span>
+                        <span class="custom-option" data-value="Piano">Piano</span>
+                        <span class="custom-option" data-value="Accordion">Accordion</span>
+                        <span class="custom-option" data-value="Drum">Drum</span>
+                    </div>
+                </div>
+            </div>
+              <a href="#" class="btn__btn btn__icon"
+                ><i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="hero__img-right">
+            <img src="img/Illustration-right.svg" alt="Illustration Right" />
+          </div>
+
+          <div class="details__btn">
+            <a href="#" class="btn__link">Details</a>
+          </div>
+        </div>
+       
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
